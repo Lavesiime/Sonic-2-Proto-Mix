@@ -70,7 +70,7 @@ function WZSetup_SpeedUpMusic
 		switch music.currentTrack
 		case TRACK_STAGE
 			SetMusicTrack("Invincibility_F.ogg", TRACK_INVINCIBLE, MUSIC_LOOP_INV_F)
-			SwapMusicTrack("Wood_F.ogg", TRACK_STAGE, MUSIC_LOOP_WZ_F, 8000)
+			SwapMusicTrack("Wood_F.ogg", TRACK_STAGE, MUSIC_LOOP_WZ_F, 0)
 			break
 
 		case TRACK_INVINCIBLE
@@ -103,12 +103,12 @@ function WZSetup_SlowDownMusic
 		switch music.currentTrack
 		case TRACK_STAGE
 			SetMusicTrack("Invincibility.ogg", TRACK_INVINCIBLE, MUSIC_LOOP_INV)
-			SwapMusicTrack("SecretWoods.ogg", TRACK_STAGE, MUSIC_LOOP_WZ, 12500)
+			SwapMusicTrack("SecretWoods.ogg", TRACK_STAGE, MUSIC_LOOP_WZ, 0)
 			break
 
 		case TRACK_INVINCIBLE
 			SetMusicTrack("SecretWoods.ogg", TRACK_STAGE, MUSIC_LOOP_WZ)
-			SwapMusicTrack("Invincibility.ogg", TRACK_INVINCIBLE, MUSIC_LOOP_INV, 12500)
+			SwapMusicTrack("Invincibility.ogg", TRACK_INVINCIBLE, MUSIC_LOOP_INV, 0)
 			break
 
 		case TRACK_BOSS
