@@ -80,7 +80,7 @@ end event
 
 
 event ObjectStartup
-	CheckCurrentStageFolder("Zone12")
+	CheckCurrentStageFolder("Zone16")
 	if checkResult == true
 		LoadSpriteSheet("DEZ/Objects.gif")
 

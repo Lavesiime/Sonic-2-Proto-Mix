@@ -1524,7 +1524,7 @@ end event
 
 
 event ObjectStartup
-	CheckCurrentStageFolder("Zone12")
+	CheckCurrentStageFolder("Zone16")
 	if checkResult == true
 		LoadSpriteSheet("DEZ/Objects.gif")
 		
@@ -1643,7 +1643,7 @@ end event
 
 
 event RSDKLoad
-	CheckCurrentStageFolder("Zone12")
+	CheckCurrentStageFolder("Zone16")
 	if checkResult == true
 		LoadSpriteSheet("DEZ/Objects.gif")
 		SpriteFrame(-44, -36, 112, 72, 399, 183)

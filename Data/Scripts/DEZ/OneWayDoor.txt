@@ -100,7 +100,7 @@ end event
 
 
 event ObjectStartup
-	CheckCurrentStageFolder("Zone12")
+	CheckCurrentStageFolder("Zone16")
 	if checkResult == true
 		// Check if in DEZ and then... load CPZ sprites...
 		LoadSpriteSheet("CPZ/Objects.gif")

@@ -98,7 +98,7 @@ end event
 
 
 event ObjectStartup
-	CheckCurrentStageFolder("Zone04")
+	CheckCurrentStageFolder("Zone13")
 	if checkResult == true
 		LoadSpriteSheet("CNZ/Objects.gif")
 		SpriteFrame(-64, -64, 128, 128, 127, 256)
